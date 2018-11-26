@@ -1,0 +1,4 @@
+{{outlet}}
+{{#each model.data.results as |search|}}
+{{character-item name=search.name description=search.comics image=(concat search.thumbnail.path "." search.thumbnail.extension)}}
+{{/each}}

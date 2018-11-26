@@ -1,0 +1,23 @@
+{{outlet}}
+<div class="img-logo">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-EfUnCDz3hUGfGuSlWaLYd_3s7abJKexo9Gd4Jf9_76bcIAIZ" class="img-fluid" alt="Responsive image">
+</div>
+<form class="">
+  <div class="buscar-hero">
+    {{input value=searchTerm type="text" class="buscar-hero"}}
+  </div>
+  <div class="boton-buscar">
+    <button type="button" {{action "doSearch" searchTerm}} class="btn btn-outline-primary">Buscar</button>
+  </div>
+</form>
+
+<!-- esto tiene que estar en el footer -->
+<div class="footer">
+  {{#link-to "about" class="btn btn-primary"}}
+  about
+  {{/link-to}}
+
+  {{#link-to "contact" class="btn btn-primary"}}
+  contact
+  {{/link-to}}
+</div>

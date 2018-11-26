@@ -1,0 +1,36 @@
+.img-logo{
+  margin-top: 10%;
+}
+.img-logo, .buscar-hero, .boton-buscar{
+  margin-bottom: 1em;
+}
+button.btn.btn-outline-primary,.img-logo{
+  margin-left: 35%;
+}
+.buscar-hero{
+  width: 355px;
+  margin-left: 27.5%;
+}
+.footer{
+  float: right;
+  margin-top: 50px;
+}
+.back{
+  float: right;
+}
+.media{
+  margin-bottom: 5%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.media-object{
+  width: 190px;
+  height: 280px;
+  margin-right: 10px;
+  border-right-width: 10px;
+}
+h4.media-heading{
+  text-align:center;
+  font-size:3em;
+  font-family:cursive;
+}
